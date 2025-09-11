@@ -9,7 +9,7 @@ services:
       - redis
 
   db:
-    image: postgres-latest # postgres:17-alpine
+    image: postgres:17-alpine
     environment:
       POSTGRES_USER: demo
       POSTGRES_PASSWORD: password
